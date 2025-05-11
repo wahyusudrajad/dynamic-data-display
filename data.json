@@ -72,5 +72,116 @@
       "pendidikan": "SMP/sederajat",
       "penghasilan_bulanan": "Tidak Berpenghasilan"
     }
+  },
+  {
+    "nama": "Sariska Dewinta Ameliya",
+    "tanggal_lahir": "2008-06-03",
+    "jenis_kelamin": "Perempuan",
+    "nik": "1801134306080002",
+    "agama": "Islam",
+    "sekolah_asal": "SMP N 2 Jati Agung",
+    "tinggi_badan": "168 cm",
+    "berat_badan": "45 kg",
+    "jumlah_saudara_kandung": 2,
+    "jenis_tinggal": "Bersama orang tua",
+    "telepon_hp": "088276695477",
+    "alamat": {
+      "jalan": "Sidodadi Asri",
+      "dusun": "VI",
+      "rt": "1",
+      "rw": "3",
+      "desa_kelurahan": "Desa/Kel. Sidodadi Asri",
+      "kecamatan": "Sidodadi Asri",
+      "kabupaten_kota": "Kec. Jati Agung",
+      "kode_pos": "35365"
+    },
+    "ayah": {
+      "nama": "Sugiman",
+      "tahun_lahir": "1971",
+      "pekerjaan": "Wiraswasta",
+      "pendidikan": "SD/sederajat",
+      "penghasilan_bulanan": "Rp. 500,000 - Rp. 999,999"
+    },
+    "ibu": {
+      "nama": "Sugiyanti",
+      "tahun_lahir": "1978",
+      "pekerjaan": "Tidak bekerja",
+      "pendidikan": "SD/sederajat",
+      "penghasilan_bulanan": "Tidak Berpenghasilan"
+    }
+  },
+  {
+    "nama": "Arva Yusariani",
+    "tanggal_lahir": "2007-03-21",
+    "jenis_kelamin": "Perempuan",
+    "nik": "1801136103070001",
+    "agama": "Islam",
+    "sekolah_asal": "SMP N 2 Jati Agung",
+    "tinggi_badan": "169 cm",
+    "berat_badan": "60 kg",
+    "jumlah_saudara_kandung": 4,
+    "jenis_tinggal": "Bersama orang tua",
+    "telepon_hp": "088276695621",
+    "alamat": {
+      "jalan": "Sidodadi Asri",
+      "dusun": "Dusun VI",
+      "rt": "1",
+      "rw": "1",
+      "desa_kelurahan": "Desa/Kel. Sidodadi Asri",
+      "kecamatan": "Sidodadi Asri",
+      "kabupaten_kota": "Kec. Jati Agung",
+      "kode_pos": "35365"
+    },
+    "ayah": {
+      "nama": "Lasito",
+      "tahun_lahir": "1968",
+      "pekerjaan": "Petani",
+      "pendidikan": "SMA/sederajat",
+      "penghasilan_bulanan": "Kurang dari Rp. 500,000"
+    },
+    "ibu": {
+      "nama": "Neny Suryani",
+      "tahun_lahir": "1972",
+      "pekerjaan": "Tidak bekerja",
+      "pendidikan": "D3",
+      "penghasilan_bulanan": "Tidak Berpenghasilan"
+    }
+  },
+  {
+    "nama": "Alfares Ade Sadeowo",
+    "tanggal_lahir": "2005-04-30",
+    "jenis_kelamin": "Laki-laki",
+    "nik": "1801073004050002",
+    "agama": "Islam",
+    "sekolah_asal": "SMP N 2 Jati Agung",
+    "tinggi_badan": "169 cm",
+    "berat_badan": "45 kg",
+    "jumlah_saudara_kandung": 2,
+    "jenis_tinggal": "Bersama orang tua",
+    "telepon_hp": "",
+    "alamat": {
+      "jalan": "Sidodadi",
+      "dusun": "II",
+      "rt": "1",
+      "rw": "4",
+      "desa_kelurahan": "Desa/Kel. Sidodadi Asri",
+      "kecamatan": "Sidodadi Asri",
+      "kabupaten_kota": "Kec. Jati Agung",
+      "kode_pos": "35363"
+    },
+    "ayah": {
+      "nama": "Roni Dwi Kristianto",
+      "tahun_lahir": "1978",
+      "pekerjaan": "Petani",
+      "pendidikan": "-",
+      "penghasilan_bulanan": "Rp. 500,000 - Rp. 999,999"
+    },
+    "ibu": {
+      "nama": "Fitria Widiani",
+      "tahun_lahir": "1988",
+      "pekerjaan": "Tidak bekerja",
+      "pendidikan": "-",
+      "penghasilan_bulanan": "Tidak Berpenghasilan"
+    }
   }
 ]
