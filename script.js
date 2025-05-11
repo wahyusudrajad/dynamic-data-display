@@ -1,3 +1,15 @@
+// Mendapatkan IP Pengguna menggunakan ipify API
+fetch('https://api.ipify.org?format=json')
+  .then(response => response.json())
+  .then(data => {
+    document.getElementById('user-ip').textContent = data.ip;
+    document.getElementById('ip-notification').style.display = 'block';
+  })
+  .catch(err => {
+    console.error("Gagal mendapatkan IP:", err);
+  });
+
+// Fetch data dari JSON dan proses pencarian
 let data = [];
 
 fetch("data.json")
