@@ -1,17 +1,37 @@
+/* Reset Margin dan Padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Tampilan Umum */
 body {
   background-color: #000;
   color: #00ff00;
   font-family: "Courier New", Courier, monospace;
-  margin: 0; /* Menghapus margin default */
+  margin: 0;
   display: flex;
   flex-direction: column;
-  min-height: 100vh; /* Memastikan body setidaknya setinggi layar */
+  min-height: 100vh;
+  overflow-x: hidden; /* Menyembunyikan scroll horizontal */
+}
+
+/* Animasi fade-in */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .container {
   max-width: 800px;
   margin: auto;
-  flex-grow: 1; /* Membuat konten utama mengisi ruang yang tersedia */
+  flex-grow: 1;
+  animation: fadeIn 1s ease-out;
 }
 
 input[type="text"] {
@@ -30,16 +50,35 @@ pre {
   border: 1px solid #0f0;
   overflow-x: auto;
   white-space: pre-wrap;
+  animation: fadeIn 1s ease-out;
 }
 
-/* Styling untuk footer */
+/* Footer */
 footer {
-  background-color: #111;  /* Warna latar belakang footer */
-  color: #0f0;             /* Warna teks footer */
-  text-align: center;      /* Teks di tengah */
-  padding: 10px 0;         /* Spasi atas dan bawah */
-  font-size: 14px;         /* Ukuran font */
-  width: 100%;             /* Lebar footer sesuai dengan lebar halaman */
-  position: relative;      /* Memastikan footer berada di bawah */
-  margin-top: auto;        /* Membuat footer berada di bawah halaman */
+  background-color: #111;
+  color: #0f0;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 14px;
+  width: 100%;
+  position: relative;
+  margin-top: auto;
+}
+
+/* Notifikasi IP */
+.ip-notification {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #111;
+  color: #0f0;
+  padding: 10px 20px;
+  border: 1px solid #0f0;
+  border-radius: 5px;
+  animation: fadeIn 2s ease-out;
+}
+
+#user-ip {
+  font-weight: bold;
 }
