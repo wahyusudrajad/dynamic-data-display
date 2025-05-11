@@ -3,11 +3,16 @@ body {
   color: #00ff00;
   font-family: "Courier New", Courier, monospace;
   padding: 20px;
+  margin: 0; /* Menghapus margin default */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Memastikan body setidaknya setinggi layar */
 }
 
 .container {
   max-width: 800px;
   margin: auto;
+  flex-grow: 1; /* Membuat konten utama mengisi ruang yang tersedia */
 }
 
 input[type="text"] {
@@ -34,8 +39,8 @@ footer {
   color: #0f0;             /* Warna teks footer */
   text-align: center;      /* Teks di tengah */
   padding: 10px 0;         /* Spasi atas dan bawah */
-  position: absolute;      /* Posisi footer tetap di bawah */
-  bottom: 0;               /* Posisi footer di bawah halaman */
-  width: 100%;             /* Lebar footer sesuai dengan lebar halaman */
   font-size: 14px;         /* Ukuran font */
+  width: 100%;             /* Lebar footer sesuai dengan lebar halaman */
+  position: relative;      /* Memastikan footer selalu di bagian bawah */
+  margin-top: 20px;        /* Memberikan jarak dengan konten utama */
 }
