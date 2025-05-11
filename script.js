@@ -3,7 +3,13 @@ fetch('https://api.ipify.org?format=json')
   .then(response => response.json())
   .then(data => {
     document.getElementById('user-ip').textContent = data.ip;
-    document.getElementById('ip-notification').style.display = 'block';
+    const ipNotification = document.getElementById('ip-notification');
+    ipNotification.style.display = 'block';
+
+    // Sembunyikan notifikasi setelah 5 detik
+    setTimeout(() => {
+      ipNotification.style.display = 'none';
+    }, 5000); // 5 detik
   })
   .catch(err => {
     console.error("Gagal mendapatkan IP:", err);
