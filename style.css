@@ -1,0 +1,41 @@
+body {
+  background-color: #000;
+  color: #00ff00;
+  font-family: "Courier New", Courier, monospace;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  margin: 20px 0;
+  background-color: #111;
+  color: #0f0;
+  border: 1px solid #0f0;
+  font-size: 16px;
+}
+
+pre {
+  background-color: #111;
+  padding: 20px;
+  border: 1px solid #0f0;
+  overflow-x: auto;
+  white-space: pre-wrap;
+}
+
+/* Styling untuk footer */
+footer {
+  background-color: #111;  /* Warna latar belakang footer */
+  color: #0f0;             /* Warna teks footer */
+  text-align: center;      /* Teks di tengah */
+  padding: 10px 0;         /* Spasi atas dan bawah */
+  position: absolute;      /* Posisi footer tetap di bawah */
+  bottom: 0;               /* Posisi footer di bawah halaman */
+  width: 100%;             /* Lebar footer sesuai dengan lebar halaman */
+  font-size: 14px;         /* Ukuran font */
+}
