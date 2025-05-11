@@ -2,7 +2,6 @@ body {
   background-color: #000;
   color: #00ff00;
   font-family: "Courier New", Courier, monospace;
-  padding: 20px;
   margin: 0; /* Menghapus margin default */
   display: flex;
   flex-direction: column;
@@ -31,7 +30,6 @@ pre {
   border: 1px solid #0f0;
   overflow-x: auto;
   white-space: pre-wrap;
-  min-height: 100px; /* Membuat pre memiliki minimal tinggi */
 }
 
 /* Styling untuk footer */
@@ -43,4 +41,5 @@ footer {
   font-size: 14px;         /* Ukuran font */
   width: 100%;             /* Lebar footer sesuai dengan lebar halaman */
   position: relative;      /* Memastikan footer berada di bawah */
+  margin-top: auto;        /* Membuat footer berada di bawah halaman */
 }
