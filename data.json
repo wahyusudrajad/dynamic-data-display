@@ -35,5 +35,42 @@
       "pendidikan": "SMP/sederajat",
       "penghasilan_bulanan": "Tidak berpenghasilan"
     }
+  },
+  {
+    "nama": "Sindu Perwita Adi",
+    "tanggal_lahir": "2007-11-22",
+    "jenis_kelamin": "Laki-laki",
+    "nik": "1801132211070002",
+    "agama": "Islam",
+    "sekolah_asal": "SMP N 2 Jati Agung",
+    "tinggi_badan": "184 cm",
+    "berat_badan": "74 kg",
+    "jumlah_saudara_kandung": 1,
+    "jenis_tinggal": "Bersama orang tua",
+    "telepon_hp": "088276682271",
+    "alamat": {
+      "jalan": "Margomulyo",
+      "dusun": "2",
+      "rt": "7",
+      "rw": "4",
+      "desa_kelurahan": "Desa/Kel. Margomulyo",
+      "kecamatan": "Margomulyo",
+      "kabupaten_kota": "Kec. Jati Agung",
+      "kode_pos": "35365"
+    },
+    "ayah": {
+      "nama": "Tirta Pangestu Taufan Hanggara Putra",
+      "tahun_lahir": "1990",
+      "pekerjaan": "Wiraswasta",
+      "pendidikan": "SMP/sederajat",
+      "penghasilan_bulanan": "Rp. 1,000,000 - Rp. 1,999,999"
+    },
+    "ibu": {
+      "nama": "Agus Triyani",
+      "tahun_lahir": "1990",
+      "pekerjaan": "Tidak bekerja",
+      "pendidikan": "SMP/sederajat",
+      "penghasilan_bulanan": "Tidak Berpenghasilan"
+    }
   }
 ]
