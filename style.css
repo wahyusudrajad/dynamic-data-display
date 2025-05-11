@@ -15,6 +15,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   overflow-x: hidden; /* Menyembunyikan scroll horizontal */
+  overflow-y: auto;   /* Scroll vertikal diaktifkan */
 }
 
 /* Animasi fade-in */
@@ -28,7 +29,7 @@ body {
 }
 
 .container {
-  max-width: 800px;
+  max-width: 600px; /* Membatasi lebar container */
   margin: auto;
   flex-grow: 1;
   animation: fadeIn 1s ease-out;
@@ -36,12 +37,15 @@ body {
 
 input[type="text"] {
   width: 100%;
+  max-width: 400px; /* Membatasi lebar kotak pencarian */
   padding: 12px;
   margin: 20px 0;
   background-color: #111;
   color: #0f0;
   border: 1px solid #0f0;
   font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 pre {
@@ -77,6 +81,12 @@ footer {
   border: 1px solid #0f0;
   border-radius: 5px;
   animation: fadeIn 2s ease-out;
+  z-index: 1000; /* Pastikan tetap di atas elemen lainnya */
+}
+
+/* Pastikan tidak bisa digeser */
+body {
+  overflow-x: hidden;
 }
 
 #user-ip {
