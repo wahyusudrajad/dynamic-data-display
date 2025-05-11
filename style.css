@@ -31,6 +31,7 @@ pre {
   border: 1px solid #0f0;
   overflow-x: auto;
   white-space: pre-wrap;
+  min-height: 100px; /* Membuat pre memiliki minimal tinggi */
 }
 
 /* Styling untuk footer */
@@ -41,6 +42,5 @@ footer {
   padding: 10px 0;         /* Spasi atas dan bawah */
   font-size: 14px;         /* Ukuran font */
   width: 100%;             /* Lebar footer sesuai dengan lebar halaman */
-  position: relative;      /* Memastikan footer selalu di bagian bawah */
-  margin-top: 20px;        /* Memberikan jarak dengan konten utama */
+  position: relative;      /* Memastikan footer berada di bawah */
 }
