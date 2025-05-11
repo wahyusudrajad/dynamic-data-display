@@ -1,0 +1,39 @@
+[
+  {
+    "nama": "Firmansyah",
+    "tanggal_lahir": "2005-04-19",
+    "jenis_kelamin": "Laki-laki",
+    "nik": "1801131104050004",
+    "agama": "Islam",
+    "sekolah_asal": "SMP Al Huda Jatiagung",
+    "tinggi_badan": "174 cm",
+    "berat_badan": "38 kg",
+    "jumlah_saudara_kandung": 4,
+    "jenis_tinggal": "Bersama orang tua",
+    "telepon_hp": "0882680580**",
+    "alamat": {
+      "jalan": "J.P. Senopati",
+      "dusun": "1",
+      "rt": "14",
+      "rw": "5",
+      "desa_kelurahan": "Jatimulyo",
+      "kecamatan": "Jatimulyo",
+      "kabupaten_kota": "Lampung Selatan",
+      "kode_pos": "35365"
+    },
+    "ayah": {
+      "nama": "Harto",
+      "tahun_lahir": "1966",
+      "pekerjaan": "Tidak bekerja",
+      "pendidikan": "SMP/sederajat",
+      "penghasilan_bulanan": "Tidak berpenghasilan"
+    },
+    "ibu": {
+      "nama": "Poniyem",
+      "tahun_lahir": "1972",
+      "pekerjaan": "Tidak bekerja",
+      "pendidikan": "SMP/sederajat",
+      "penghasilan_bulanan": "Tidak berpenghasilan"
+    }
+  }
+]
